@@ -4,7 +4,7 @@ export const deposite = (amount) =>{
             type : "diposite",
             payload : amount,
         })
-    }
+    }  
 }
 
 export const withdraw = (amount) =>{
