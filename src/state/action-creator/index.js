@@ -1,7 +1,7 @@
 export const deposite = (amount) =>{
     return (dispath) =>{
         dispath({
-            type : "diposite",
+            type : "deposite",
             payload : amount,
         })
     }  
